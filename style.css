@@ -1,0 +1,137 @@
+*
+{
+    margin:0%;
+    pad: 0%;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+
+#search
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar-brand img
+{
+    height: 70px;
+    width: 70px;
+}
+
+.d-flex{
+    width:500px;
+}
+#navbar
+{
+    height: 96px;
+}
+
+#col1
+{
+    margin: 10px;
+    display: inline-grid;
+    position: fixed;
+}
+#col1 button
+{
+    margin-bottom: 10px;
+    color: white;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+#col1 button:hover
+{
+    background-color: grey;
+}
+
+#col1 button p
+{
+    margin:10px
+
+}
+
+#col2
+{
+    margin-top: 10px;
+}
+
+#task
+{
+    display: grid;
+}
+#task input
+{
+    border-radius: 5px;
+    border: 0;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 90%;
+    outline: none;
+}
+#task button
+{
+    margin-top: 10px;
+    margin-right: 10%;
+    width: 100px;
+    justify-self: right;
+
+}
+
+#tasklist
+{
+    margin-top: 40px;
+}
+
+
+.taskcard
+{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#list
+{
+    display: grid;
+    color: white;
+}
+
+.taskbutton
+{
+    position: absolute;
+    margin-left: 50%;
+}
+
+#rowplan p
+{
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-left: -15%;
+}
+
+

@@ -1,0 +1,75 @@
+*
+{
+    margin:0%;
+    pad: 0%;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+
+#search
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar-brand img
+{
+    height: 70px;
+    width: 70px;
+}
+
+.d-flex{
+    width:500px;
+}
+#navbar
+{
+    height: 96px;
+}
+
+.row h2{
+    color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myborder
+{
+    
+    border-right: 2px solid white; 
+    padding: 10px;
+}
+
+.list
+{
+    display: grid;
+    color: white;
+}
+
+
+.taskcard
+{
+    width: 95%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
